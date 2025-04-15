@@ -9,9 +9,11 @@ import ProductCarousel from '../components/ProductCarousel'
 import TestimonialsSection from '../components/TestimonialsSection'
 import BannerSection from '../components/BannerSection'
 
+
 function HomePage() {
   return (
       <>
+        
         <Topbar/>
         <Header/>
         <BannerSection/>

@@ -28,7 +28,7 @@ const Topbar = () => {
             </Flex>
             <Button
               as="a"
-              href="/contact"
+              href="/contact-us"
               color="white"
               variant="solid"
               fontWeight="bold"
