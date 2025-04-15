@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Text, Image, Button, useColorModeValue, IconButton } from "@chakra-ui/react";
+import { Box, Container, Heading, Text, Image, Button, useColorModeValue, IconButton, useBreakpointValue } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import { useInView } from "framer-motion";
@@ -160,7 +160,7 @@ const ProductCarousel = () => {
     }
   ];
 
-  const itemsPerPage = 3;
+  const itemsPerPage = useBreakpointValue({ base: 1, md: 2, lg: 3 });
   const totalPages = Math.ceil(products.length / itemsPerPage);
 
   const nextSlide = () => {

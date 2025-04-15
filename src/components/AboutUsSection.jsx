@@ -136,7 +136,7 @@ const AboutUsSection = () => {
             </UnorderedList>
           </MotionBox>
 
-          {/* Practice at Hygeia */}
+         
           <MotionBox
             p={6}
             bg="white"
@@ -148,7 +148,7 @@ const AboutUsSection = () => {
             transition={{ duration: 1.5, delay: 0.3 }}
           >
             <Heading as="h4" size="md" mb={4}>
-              Practice at Hygeia
+              Practice at Abbott
             </Heading>
             <UnorderedList spacing={2}>
               <ListItem fontWeight="bold">
